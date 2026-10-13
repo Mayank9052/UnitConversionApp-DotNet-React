@@ -1,0 +1,14 @@
+
+{
+  "name": "unit-conversion-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n API,REACT \"npm:backend\" \"npm:frontend\"",
+    "backend": "dotnet run --project backend/UnitConversion.Api/UnitConversion.Api.csproj --urls http://localhost:5080",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

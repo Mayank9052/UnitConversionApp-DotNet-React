@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pkG6uXJeM6yMTPJbaSMMAi25eRAAk3zIEBhBfseHQDk=",
+  "Source": "UnitConversion.Api",
+  "BasePath": "_content/UnitConversion.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
